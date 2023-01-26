@@ -9,6 +9,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
@@ -20,14 +26,208 @@ header {
 .header h1 {
   font-size: 40px;
 }
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sit next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 25%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 75%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+
+
 </style>
 </head>
 <body>
 <div class="header">
 <h1>Daniel Freese</h1>
-<p>Ph.D. graduate of Indiana University Bloomington</p>
+<p>I recently received my Ph.D. from Indiana University under Matthias Weber. I study minimal surfaces and various other geometric topics. Also interested in applied math and computer science. Here is my <a href="Daniel Freese CV.pdf" target="_blank"> CV</a>.</p>
+</div>
+
+<div class="row">
+  <div class="side">
+Links:
+<p>
+<a href="Daniel Freese CV" target="_blank"> 
+CV</a>
+<p>
+<a href="Daniel Freese - Research Statement.pdf" target="_blank"> Research statement</a>
+<p>
+<a href="
+https://arxiv.org/search/math?searchtype=author&query=Freese%2C+D" target="_blank"> 
+arXiv</a>
+<p>
+
+
+<p>
+<a href="https://www.youtube.com/watch?v=EgMPwuyrOfM" target="_blank"> 
+Lecture on thesis research
+</a>
+
+<p>
+<a href="https://github.com/DanielFreese" target="_blank"> 
+Github
+</a>
+
+<p>
+<a href="https://minimalsurfaces.blog/" target="_blank"> 
+Weber's MS repository
+</a>
+<p>
+<a href="https://virtualmathmuseum.org/Surface/gallery_m.html" target="_blank"> 
+Karcher's interactive MS museum
+</a>
+<p>
+
+
+
+<img src="FK01im.png" alt="FK3" width="200" class="center">
+<p> <center>New 8-ended Fischer-Koch</center>
+<p>
+
+<img src="CHM+01im.png" alt="CHM+" width="200">
+<p> <center>New periodic helicoid of genus 2</center>
+<p>
+
+<img src="CHM-01im.png" alt="CHM-" width="200">
+<p> <center>Periodic genus 2 helicoid that untwists</center>
+<p>
+
+<img src="CHM801im.png" alt="CHM8" width="200">
+<p> <center>New SMIMS with planar ends</center>
+<p>
+
+<img src="(3,3).png" alt="(3,3)" width="200">
+<p> <center>New singly periodic minimal surface with helicoidal limit</center>
+<p>
+
+
+</div>
+  <div class="main">
+
+
+<section>
+<h2> Research </h2>
+<p>
+
+<h3>
+Overview
+</h3>
+
+My primary research interest is in differential geometry and specifically minimal surfaces in in &reals;<sup>3</sup>. We can parametrize most interesting minimal surfaces with a Riemann surface and three meromorphic one forms. As a result, complex analysis, Teichm&uuml;ller theory, and algebraic geometry are of great interest to me as well.
+
+<p>
+
+My thesis work is in regeneration from parking garage structure, that is, noded limits consisting of helicoidal nodes. Using complex analysis, one can parametrize a minimal surface near a noded limit and use the implicit function theorem to determine the parameters which guarantee embeddedness. The locations of nodes must solve complex balance equations and satisfy a nondegeneracy condition. This technique has provided interesting new surfaces which are invariant under translations (TIMS) and nontrivial screw motions (SMIMS).
+
+<p>
+A goal of mine is to make significant advances in the classification of SMIMS <a href="Daniel Freese - Research Statement.pdf" target="_blank"> research statement</a>.
+<p>
+Other geometric interests of mine are in hyperbolic geometry and spaces of nonpositive curvature. 
+<p>
+<h3>
+Publications
+</h3>
+
+<ul>
+  <li><b>Helicoids and Vortices</b>, with <a href="https://dr-how.github.io/" target="_blank"> 
+Hao Chen</a> – to appear in <i>Proceedings of the Royal Society A</i>
+<a href="https://arxiv.org/abs/2201.13091" target="_blank"> 
+arXiv</a>
+<p>
+We regenerate translation invariant minimal surfaces (TIMS) in &reals;<sup>3</sup> from parking garage limits. Since there is no issue with multivaluedness, we obtain a result for singly, doubly, and triply periodic surfaces. We obtain the first examples of TIMS with parking garage limits in each case, besides the standard examples of Riemann's surface, KMR, and the Meeks surfaces. Indeed, there are infinitely many examples in each case.
+</li>
+  <li><b>Screw Motion Invariant Minimal Surfaces from Gluing Helicoids</b> – to appear in <i>Geometriae
+Dedicata</i>
+<a href="https://arxiv.org/abs/2111.03909" target="_blank"> 
+arXiv</a>
+<p>
+We regenerate screw motion invariant minimal surfaces (SMIMS) in &reals;<sup>3</sup> from parking garage limits. Among the new surfaces we find are: 
+<p> &emsp; -the first examples of Fischer-Koch surfaces with 4k ends (k > 1),
+<p> &emsp; -a new example of a periodic genus 2 helicoid, which may lead to a new nonperiodic genus 2 helicoid,
+<p> &emsp; -the first new example of a SMIMS with planar ends after the CHM example,
+<p> &emsp; -the first example of a SMIMS without any rotational symmetries.
+</li>
+  <li><b>Two New Embedded Triply Periodic Minimal Surfaces</b>, with 
+<a href="https://matweber.pages.iu.edu/IU/Home.html" target="_blank"> 
+Matthias Weber</a>, Alfred Yerger, and
+<a href="https://ryol.pages.iu.edu/" target="_blank"> 
+Ramazan Yol</a> - <i>Manuscripta Mathematica</i>, September 2020
+<p>
+We find new one-parameter families of genus 4 triply periodic minimal surfaces in &reals;<sup>3</sup>. Using the Schwarz-Christoffel map, we use flat structures to find the parameters that solve the period problem. One of these is the first example of a triply periodic minimal surfaces limiting to Costa's surface.
+</li>
+  <li> <b>On Intrinsic Surfaces of Revolution</b>, with 
+<a href="https://matweber.pages.iu.edu/IU/Home.html" target="_blank"> 
+Matthias Weber</a> - <i>Journal of Geometry</i> 108, 743–762, 2017
+<p>
+We study surfaces whose fundamental form and principal curvatures are rotationally invariant.  We show that these surfaces must have constant mean curvature and classify the minimal case.
+</li>
+</ul>
+
+<h3>
+Images
+</h3>
+Because I deal mostly with surfaces in 3-dimensional space, I have made Mathematica programs to make images of them. I numerically find the parameters that guarantee the surfaces are those we know exist through theory.  Then using meshes, I generate images in Mathematica.  POV-Ray allows me to make better-quality pictures of the surfaces, as well as important curves or points on them. Many thanks to Dr. Weber for teaching me so much about image-making.
+
+</section>
+
+<section>
+<h2> Teaching Experience </h2>
+<p>
+
+<h3>
+Classes Taught at IU
+</h3>
+<ul>
+  <li>Brief Survey of Calculus (M119), Spring 2022</li>
+  <li>Introduction to Finite Math II (D117), Spring 2021, online</li>
+  <li>Introduction to Finite Math I (D116), Fall 2020, online</li>
+  <li>Mathematics of Decision and Beauty (coteaching) (M106), Summer 2020, online</li>
+  <li>Finite Math (M118), Spring 2020</li>
+  <li>Precalculus with trigonometry (M027), Fall 2019</li>
+  <li>Precalculus (M025) Spring 2019</li>
+  <li>Precalculus (M025) Fall 2018</li>
+</ul>
+
+<h3>
+Other assistantship at IU
+</h3>
+<ul>
+  <li>Calculus Recitation (M211), Summer 2022, online</li>
+  <li>Calculus Recitation (M211), Fall 2021</li>
+  <li>Grader for Quantum Computing (M556), Fall 2021</li>
+  <li>Assistant for Finite Math (D116), Spring 2019</li>
+  <li>Assistant for Finite Math (M118), Fall 2018</li>
+  <li>Calculus Recitation (M211), Fall 2017 (x2)</li>
+</ul>
+</section>
+<img src="HGKSim.png" alt="HGK" width="500" class="center">
+<p>
 </div>
 
 
+
+</div>
+
 </body>
+
 </html>
